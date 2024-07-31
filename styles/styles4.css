@@ -1,0 +1,102 @@
+body {
+    background-color:#26335D;
+    color: #ffffff;
+    margin: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.practice-advice {
+    color: #8D5CF6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.applicable-package{
+    font-family: monospace;
+    font-weight: 700;
+    size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+   font-family: monospace;
+   font-weight: 400;
+   size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    overflow: hidden;
+    width: 500px;
+    height: 418px;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-text {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.stars i {
+    color: #FFDF00;
+}
+
+.card-title {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 10px;
+}
+
+.card-subtitle {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.row-carrusel{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
