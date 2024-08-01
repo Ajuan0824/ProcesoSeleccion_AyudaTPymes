@@ -1,149 +1,189 @@
-  header {
-    background-color: #26335D;
-    padding: 20px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content:space-between;
-  }
-  
-  nav .navbar-brand{
-    width: 187px;
-    height: 58px;
-    top: 17px;
-    left: 136px;
-    text-align: center;
-  }
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2b2e4a;
+  color: #ffffff;
+}
 
-  nav .collapse .navbar-collapse {
-    width: 815px;
-    height: 58px;
-    top: 16px;
-    left: 364px;
-    text-align: center;
-  }
-  nav .title {
-      width: 145px;
-      height: 32px;
-      top: 13px;
-      font-family: monospace;
-      font-weight: 700;
-      size: 24px;
-      line-height: 32px;
-      letter-spacing: 0.1px;
-      color: #FFFFFF;
-  }
+header {
+  background-color: #26335D;
+  padding: 20px;
+}
 
-  nav .navbar-nav1{
-    top: 17px;
-    gap: 21px;
-    margin-right: 50px;
-    /* width: 275px; --- Estas con Hug que no se que es
-    height: 24px; */
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 
-  nav ul li a .home {
-    width: 44px;
-    height: 24px;
-    left: -1px;
-    font-family:monospace; /* Poner Montserrat en las fuentes */
-    font-weight: 400;
-    size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav .login-buttons a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-  }
-  
-  nav .join-us {
-    background-color: #7209b7;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #ff3b81;
-  }
-  
-  .hero-content {
-    max-width: 50%;
-  }
-  
-  .hero-content h1 {
-    color: white;
-    font-size: 48px;
-  }
-  
-  .hero-content p {
-    color: white;
-    margin: 20px 0;
-    font-size: 18px;
-  }
-  
-  .hero-buttons .btn {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 10px;
-    text-decoration: none;
-  }
-  
-  .btn-primary {
-    background-color: #7209b7;
-    color: white;
-  }
-  
-  .btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-  }
-  
-  .hero-image {
-    position: relative;
-  }
-  
-  .hero-image img {
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .hero-image .chart1 {
-    position: absolute;
-    top: -20px;
-    left: 150px;
-  }
-  
-  .hero-image .chart2 {
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
-  }
+.navbar-brand {
+  width: 187px;
+  height: 58px;
+  text-align: center;
+}
 
+.collapse .navbar-collapse {
+  width: 815px;
+  height: 58px;
+  text-align: center;
+}
 
-  
+.title {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+.navbar-nav1 {
+  display: flex;
+  gap: 21px;
+  margin-right: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.login-buttons a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.join-us {
+  background-color: #7209b7;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #ff3b81;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 48px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hero-content p {
+  color: white;
+  margin: 20px 0;
+  font-size: 18px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hero-buttons .btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #7209b7;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.chart1 {
+  position: absolute;
+  top: -20px;
+  left: 150px;
+}
+
+.chart2 {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.footer-top {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  background-color: #0d0d0d;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.footer-top p,
+.footer-top h4,
+.footer-top div {
+  margin: 10px 0;
+}
+
+.footer-top .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-top .social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.slideIn {
+  animation: slideIn 1s ease-in-out;
+}

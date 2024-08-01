@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #26335D;
+    color: #ffffff;
+}
+
+.main-title {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.subheading {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-bottom: 60px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #000000;
+    animation: slideIn 1s ease-in-out;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-row i {
+    width: 8px;
+    height: 16px;
+    color: #8D5CF6;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+h5 {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    letter-spacing: 0.1px;
+    margin-bottom: 5px;
+}
+
+h6 {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.slideIn {
+    animation: slideIn 1s ease-in-out;
+}
