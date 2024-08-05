@@ -2,7 +2,7 @@ body {
     background-color:#26335D;
     color: #ffffff;
     margin: 24px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .practice-advice {
@@ -16,9 +16,8 @@ body {
 }
 
 .applicable-package{
-    font-family: monospace;
     font-weight: 700;
-    size: 40px;
+    font-size: 40px;
     line-height: 50px;
     letter-spacing: 0.2px;
     align-items: center;
@@ -26,9 +25,8 @@ body {
 }
 
 .paragraph {
-   font-family: monospace;
    font-weight: 400;
-   size: 14px;
+   font-size: 14px;
    line-height: 20px;
    letter-spacing: 0.2px;
    align-items: center;
@@ -45,10 +43,15 @@ body {
     background-color: white;
     overflow: hidden;
     width: 500px;
-    height: 418px;
+    height: 440px;
     text-align: center;
     position: relative;
     margin: 10px;
+}
+
+.card-2{
+    width: 500px;
+    height: 460px;
 }
 
 .card img {
@@ -65,7 +68,6 @@ body {
 }
 
 .card-text {
-    font-family: monospace;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -78,7 +80,6 @@ body {
 }
 
 .card-title {
-    font-family: monospace;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -88,7 +89,6 @@ body {
 }
 
 .card-subtitle {
-    font-family: monospace;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
