@@ -29,7 +29,7 @@
 
 3º- Abre el Archivo HTML en tu Navegador
 
-    Puedes abrir el archivo index.html directamente en tu navegador. Si usas VSCode, puedes usar la extensión "Live Server" para lanzar el servidor local.
+Puedes abrir el archivo index.html directamente en tu navegador. Si usas VSCode, puedes usar la extensión "Live Server" para lanzar el servidor local.
 
 Si por casualidad no funciona, dejo por aquí el siguiente enlace con la web subida: 
 
