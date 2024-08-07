@@ -14,19 +14,7 @@
 
 -- Estructura del Proyecto
 
-├── index.html
-├── styles/
-│   ├── styles.css
-│   ├── styles1.css
-│   ├── styles2.css
-│   ├── styles3.css
-│   ├── styles4.css
-│   ├── styles5.css
-│   └── styles6.css
-├── js/
-│   ├── validation.js
-│   └── readme.js
-└── README.md
+![alt text](image.png)
 
 
 -- Instrucciones para Desplegar Localmente
@@ -44,3 +32,5 @@
     Puedes abrir el archivo index.html directamente en tu navegador. Si usas VSCode, puedes usar la extensión "Live Server" para lanzar el servidor local.
 
 Si por casualidad no funciona, dejo por aquí el siguiente enlace con la web subida: 
+
+https://ajuan0824.github.io/ProcesoSeleccion_AyudaTPymes/
