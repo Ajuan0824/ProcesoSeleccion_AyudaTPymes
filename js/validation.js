@@ -1,11 +1,12 @@
-document.getElementById('subscription-form').addEventListener('submit', function(event) {
+document.getElementById('page6-subscription-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    var email = document.getElementById('email').value;
-    var emailError = document.getElementById('email-error');
+    var email = document.getElementById('page6-email').value;
+    var emailError = document.getElementById('page6-email-error');
 
     if (validateEmail(email)) {
         emailError.textContent = '';
         alert('Subscription successful!');
+        document.getElementById('page6-email').value = '';
     } else {
         emailError.textContent = 'Please enter a valid email address.';
     }

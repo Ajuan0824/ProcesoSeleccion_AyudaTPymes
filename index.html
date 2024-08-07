@@ -7,50 +7,444 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/styles1.css">
+  <link rel="stylesheet" href="styles/styles2.css">
+  <link rel="stylesheet" href="styles/styles3.css">
+  <link rel="stylesheet" href="styles/styles4.css">
+  <link rel="stylesheet" href="styles/styles5.css">
+  <link rel="stylesheet" href="styles/styles6.css">
 </head>
 <body>
   <header>
     <div class="container">
-        <nav class="navbar-style-2 navbar-light">
-            <div class="navbar-brand">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
                 <h3 class="title">BrandName</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#" class="nav-link home">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link product">Product</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link pricing">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link contact">Contact</a></li>
+                </ul>
+                <div class="login-buttons">
+                    <a href="#" class="btn login">Login</a>
+                    <a href="#" class="btn btn-primary join-us">JOIN US <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 4.81059 0.079009 4.62895 0.219646 4.49502C0.360282 4.36109 0.551026 4.28584 0.749916 4.28584H9.43845L6.21831 1.22068C6.07749 1.08658 5.99838 0.904705 5.99838 0.715059C5.99838 0.525414 6.07749 0.343536 6.21831 0.209436C6.35912 0.0753365 6.5501 0 6.74925 0C6.94839 0 7.13937 0.0753365 7.28019 0.209436L11.7797 4.49438C11.8495 4.56072 11.9049 4.63952 11.9427 4.72629C11.9805 4.81305 12 4.90606 12 5C12 5.09394 11.9805 5.18695 11.9427 5.27371C11.9049 5.36048 11.8495 5.43928 11.7797 5.50562L7.28019 9.79056C7.13937 9.92466 6.94839 10 6.74925 10C6.5501 10 6.35912 9.92466 6.21831 9.79056C6.07749 9.65646 5.99838 9.47459 5.99838 9.28494C5.99838 9.0953 6.07749 8.91342 6.21831 8.77932L9.43845 5.71416H0.749916C0.551026 5.71416 0.360282 5.63892 0.219646 5.50499C0.079009 5.37106 0 5.18941 0 5Z" fill="white"/>
+                      </svg>
+                      </a>
+                </div>
             </div>
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav1">
-                    <ul>
-                        <li><a href="#" class="home">Home</a></li>
-                        <li><a href="#" class="product">Product</a></li>
-                        <li><a href="#" class="pricing">Pricing</a></li>
-                        <li><a href="#" class="contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-nav2">
-                    <div class="login-buttons">
-                        <a href="#">Login</a>
-                        <a href="#" class="join-us">JOIN US</a>
-                    </div>
-                </div>
-            </div>     
         </nav>
     </div>
   </header>
   <main>
-    <section class="hero">
-      <div class="hero-content">
-        <h1>25K+ STUDENTS TRUST US</h1>
-        <p>Every day brings with it a fresh set of learning possibilities.</p>
-        <div class="hero-buttons">
-          <a href="#" class="btn btn-primary">Join Us</a>
-          <a href="#" class="btn btn-secondary">Learn More</a>
+    <section class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 hero-content">
+            <h5 class="join-h5">Join Us</h5>
+            <h1>25K+ STUDENTS TRUST US</h1>
+            <h4 class="text">Every day brings with it a fresh set of <br>learning possibilities.</h4>
+            <div class="hero-buttons">
+              <a href="#" class="btn btn-primary join-us">Join Us</a>
+              <a href="#" class="btn btn-secondary learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 hero-image">
+            <img src="images/student.png" alt="Student" class="main-image">
+            <img src="images/chart1.png" alt="Chart 1" class="chart1">
+            <img src="images/chart2.png" alt="Chart 2" class="chart2">
+            <div class="icono">
+              <svg width="107" height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.8934 66.9305C16.8939 65.1988 15.8663 61.3634 17.598 58.3639L39.7234 20.0417C41.4551 17.0422 45.2905 16.0145 48.2899 17.7463L86.6122 39.8716C89.6116 41.6034 90.6393 45.4387 88.9076 48.4382L66.7822 86.7605C65.0505 89.7599 61.2151 90.7876 58.2157 89.0559L19.8934 66.9305Z" fill="#0072F9"/>
+                <g clip-path="url(#clip0_2689_5281)">
+                <path d="M56.7997 66.6371L68.5516 46.2821L71.4595 47.9609L58.0287 71.2238L34.7659 57.793L36.4447 54.8851L56.7997 66.6371ZM57.4443 62.1628C57.2747 62.458 57.047 62.7156 56.775 62.9203C56.503 63.125 56.1924 63.2724 55.8618 63.3536C55.5312 63.4348 55.1876 63.4482 54.8518 63.3929C54.5159 63.3376 54.1947 63.2147 53.9077 63.0318C53.6206 62.8489 53.3736 62.6097 53.1816 62.3286C52.9895 62.0475 52.8565 61.7305 52.7905 61.3965C52.7244 61.0626 52.7268 60.7187 52.7974 60.3857C52.868 60.0528 53.0054 59.7375 53.2012 59.4591L50.6477 54.8599C50.1948 54.8841 49.7438 54.7857 49.3423 54.5749C48.9408 54.3641 48.6036 54.0488 48.3664 53.6623C48.1292 53.2758 48.0008 52.8324 47.9947 52.3789C47.9887 51.9255 48.1052 51.4788 48.3319 51.0861C48.5587 50.6933 48.8872 50.3691 49.283 50.1476C49.6787 49.9262 50.1269 49.8157 50.5803 49.8278C51.0336 49.84 51.4752 49.9743 51.8585 50.2167C52.2419 50.459 52.5526 50.8004 52.758 51.2047L58.0178 51.1165C58.072 50.9995 58.1356 50.8871 58.208 50.7804L53.6702 43C53.1022 43.0429 52.5364 42.892 52.0653 42.5719C51.5941 42.2518 51.2454 41.7815 51.076 41.2376C50.9067 40.6938 50.9267 40.1086 51.1328 39.5776C51.339 39.0466 51.719 38.6011 52.211 38.314C52.7029 38.0269 53.2777 37.915 53.8414 37.9966C54.4051 38.0783 54.9245 38.3486 55.3148 38.7635C55.705 39.1784 55.9431 39.7134 55.9901 40.2811C56.0371 40.8487 55.8903 41.4156 55.5736 41.889L60.1115 49.6694C60.566 49.6353 61.0212 49.7253 61.4287 49.9296C61.8361 50.1339 62.1805 50.445 62.425 50.8297C62.6695 51.2144 62.805 51.6582 62.8171 52.1139C62.8292 52.5695 62.7174 53.0199 62.4936 53.417C62.2698 53.8141 61.9425 54.143 61.5464 54.3686C61.1504 54.5943 60.7006 54.7082 60.2449 54.6983C59.7892 54.6884 59.3447 54.5549 58.9589 54.3122C58.573 54.0696 58.2603 53.7267 58.0541 53.3202L52.7942 53.4084C52.7328 53.5419 52.6592 53.6694 52.5743 53.7893L55.1278 58.3886C55.5808 58.3641 56.032 58.4625 56.4336 58.6732C56.8353 58.884 57.1727 59.1993 57.41 59.5859C57.6472 59.9725 57.7757 60.4161 57.7818 60.8696C57.7878 61.3232 57.6712 61.77 57.4443 62.1628Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2689_5281">
+                <rect width="26.8616" height="26.8616" fill="white" transform="translate(34.7659 57.793) rotate(-60)"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </div>
+            <div class="circle">
+              <svg width="500" height="500" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="210.253" cy="210.084" r="209.457" fill="#FC724D"/>
+                </svg>
+                
+            </div>
+            <div class="whaves">
+              <svg width="106" height="28" viewBox="0 0 106 28" style="position: absolute;right: 250px;bottom: 390px; " fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.864746 14.1474C1.55876 -3.20279 5.0288 -3.20279 11.2749 14.1474C17.521 31.4977 20.991 31.4977 21.685 14.1474C22.379 -3.20279 25.8491 -3.20279 32.0952 14.1474C38.3412 31.4977 41.8113 31.4977 42.5053 14.1474C43.1993 -3.20279 46.6694 -3.20279 52.9154 14.1474C59.1615 31.4977 62.6316 31.4977 63.3256 14.1474C64.0196 -3.20279 67.4896 -3.20279 73.7357 14.1474C79.9818 31.4977 83.4518 31.4977 84.1459 14.1474C84.8399 -3.20279 88.3099 -3.20279 94.556 14.1474C100.802 31.4977 104.272 31.4977 104.966 14.1474" stroke="#FC724D" stroke-width="1.25423"/>
+                </svg>
+              <svg width="106" height="28" viewBox="0 0 106 28" style="position: absolute;right: 250px;bottom: 370px; " fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.864746 14.1474C1.55876 -3.20279 5.0288 -3.20279 11.2749 14.1474C17.521 31.4977 20.991 31.4977 21.685 14.1474C22.379 -3.20279 25.8491 -3.20279 32.0952 14.1474C38.3412 31.4977 41.8113 31.4977 42.5053 14.1474C43.1993 -3.20279 46.6694 -3.20279 52.9154 14.1474C59.1615 31.4977 62.6316 31.4977 63.3256 14.1474C64.0196 -3.20279 67.4896 -3.20279 73.7357 14.1474C79.9818 31.4977 83.4518 31.4977 84.1459 14.1474C84.8399 -3.20279 88.3099 -3.20279 94.556 14.1474C100.802 31.4977 104.272 31.4977 104.966 14.1474" stroke="#FC724D" stroke-width="1.25423"/>
+              </svg>
+              <svg width="106" height="28" viewBox="0 0 106 28" style="position: absolute;right: 250px;bottom: 350px; " fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.864746 14.1474C1.55876 -3.20279 5.0288 -3.20279 11.2749 14.1474C17.521 31.4977 20.991 31.4977 21.685 14.1474C22.379 -3.20279 25.8491 -3.20279 32.0952 14.1474C38.3412 31.4977 41.8113 31.4977 42.5053 14.1474C43.1993 -3.20279 46.6694 -3.20279 52.9154 14.1474C59.1615 31.4977 62.6316 31.4977 63.3256 14.1474C64.0196 -3.20279 67.4896 -3.20279 73.7357 14.1474C79.9818 31.4977 83.4518 31.4977 84.1459 14.1474C84.8399 -3.20279 88.3099 -3.20279 94.556 14.1474C100.802 31.4977 104.272 31.4977 104.966 14.1474" stroke="#FC724D" stroke-width="1.25423"/>
+              </svg>
+              <svg width="106" height="28" viewBox="0 0 106 28" style="position: absolute;right: 250px;bottom: 330px; " fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.864746 14.1474C1.55876 -3.20279 5.0288 -3.20279 11.2749 14.1474C17.521 31.4977 20.991 31.4977 21.685 14.1474C22.379 -3.20279 25.8491 -3.20279 32.0952 14.1474C38.3412 31.4977 41.8113 31.4977 42.5053 14.1474C43.1993 -3.20279 46.6694 -3.20279 52.9154 14.1474C59.1615 31.4977 62.6316 31.4977 63.3256 14.1474C64.0196 -3.20279 67.4896 -3.20279 73.7357 14.1474C79.9818 31.4977 83.4518 31.4977 84.1459 14.1474C84.8399 -3.20279 88.3099 -3.20279 94.556 14.1474C100.802 31.4977 104.272 31.4977 104.966 14.1474" stroke="#FC724D" stroke-width="1.25423"/>
+              </svg>
+                
+            </div>
+          </div>
         </div>
       </div>
-      <div class="hero-image">
-        <img src="images/student.png" alt="Student">
-        <img src="images/chart1.png" alt="Chart 1" class="chart1">
-        <img src="images/chart2.png" alt="Chart 2" class="chart2">
+      <div class="background-shape">
+      <svg width="1050" height="1200" viewBox="0 0 898 766" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0H842.332L895.711 394.092C904.644 460.041 880.188 526.112 830.469 570.351L667.93 714.979C623.102 754.866 562.735 772.519 503.481 763.068L0 682.767V0Z" fill="#EA4C89"/>
+        </svg>  
       </div>
+      <div class="background-shape2">
+        <svg width="530" height="271" viewBox="0 0 530 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0H530V271L187.419 204.843C124.909 192.771 71.8804 151.66 44.6133 94.1289L0 0Z" fill="#EA4C89"/>
+          </svg>            
+        </div>
     </section>
+
+    <!-- PAGE 1 -->
+    <section id="page1">
+      <div class="page1-container">
+            <h6 class="practice-advice">Practice Advice</h6>
+            <h2 class="most-popular">Most Popular Courses</h2>
+            <p class="paragraph">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics</p>
+        
+        <div class="courses">
+            <div class="course">
+                <div>
+                    <img src="images/school.png" alt="School">
+                </div>
+                <h5>Expert Instruction</h5>
+                <hr class="hr1">
+                <p class="paragraph-description">The gradual<br> accumulation and<br> small-scale..</p>
+            </div>
+            <div class="course">
+                <div>
+                    <img src="images/book.png" alt="Book">
+                </div>
+                <h5>2,769 online courses</h5>
+                <hr class="hr1">
+                <p class="paragraph-description">The gradual<br>accumulation and<br> small-scale..</p>
+            </div>
+        </div>
+    </div>
+    </section>
+     <!-- PAGE 2 -->
+     <section id="page2">
+      <div class="page2-container">
+          <div class="page2-row">
+              <div class="page2-col-md-6">
+                  <div class="page2-thumb-concept-16">
+                      <svg class="page2-triangle" width="300" height="290" viewBox="0 0 423.93 423.93" fill="none">
+                          <polygon points="0,0 423.93,0 211.965,423.93" fill="#FFFFFF" transform="rotate(180 211.965 211.965)" />
+                      </svg>
+                      <img src="images/youngStudent.png" alt="Image 1" class="page2-image">
+                      <img src="images/imagen_3_2.png" alt="Image 2" class="page2-image_3_2">
+                      <img src="images/imagen_3_3.png" alt="Image 3" class="page2-image_3_3">
+                      <div class="page2-frame-1">
+                          <img src="images/imagen_3_4.png" alt="Image 4" class="page2-image_3_4">
+                      </div>
+                      <div class="page2-frame-2">
+                          <img src="images/imagen_3_5.png" alt="Image 5" class="page2-image_3_5">
+                      </div>
+                      <div class="page2-frame-3">
+                          <img src="images/imagen_3_6.png" alt="Image 6" class="page2-image_3_6">
+                      </div>
+                  </div>
+              </div>
+              <div class="page2-col-md-5">
+                  <div class="page2-fixed-width page2-fixed-height">
+                      <hr class="hr2">
+                      <h2 id="page2-section-title-4">Our Popular<br>Courses</h2>
+                      <p class="page2-paragraph">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                      <a href="#" class="page2-learn-more">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- PAGE 3 -->
+    <section id="page3">
+      <div class="page3-container text-center my-5">
+          <h6 class="page3-practice-advice">Practice Advice</h6>
+          <h2 class="page3-aprodable-package">Approdable Packages</h2>
+          <p class="page3-paragraph">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+  
+          <div id="page3Carousel" class="page3-carousel-slide" data-ride="carousel">
+              <div class="page3-carousel-inner">
+                  <div class="page3-carousel-item active">
+                      <div class="page3-row-carousel">
+                          <div class="col-md-6">
+                              <div class="page3-card">
+                                  <div class="page3-card-header">
+                                      <img src="images/imagecard1.jfif" alt="Package 1" class="page3-card-image">
+                                      <span class="page3-badge">Sale</span>
+                                      <div class="page3-card-icons">
+                                          <i class="bi bi-heart"></i>
+                                          <i class="bi bi-cart"></i>
+                                          <i class="bi bi-eye-fill"></i>
+                                      </div>
+                                  </div>
+                                  <div class="page3-card-body">
+                                      <div class="page3-card-content">
+                                          <div class="page3-row-image">
+                                              <p class="page3-card-category">Welcome</p>
+                                              <div class="page3-right">
+                                                  <span class="page3-icon">⭐</span>
+                                                  <p class="page3-stars-num">4,9</p>
+                                              </div>
+                                          </div>
+                                          <h5 class="page3-card-title">Training Courses</h5>
+                                          <p class="page3-card-description">
+                                              We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                                          </p>
+                                          <div class="page3-row-image">
+                                              <img src="images/descarga.png" alt="descarga" class="page3-image">
+                                              <h6 class="page3-card-sales">15 Sales</h6>
+                                          </div>
+                                          <p class="page3-card-prices">
+                                              <span class="page3-original-price">$16.48</span>
+                                              <span class="page3-sale-price">$6.48</span>
+                                          </p>
+                                          <a href="#" class="page3-card-link">Learn More</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="page3-card">
+                                  <div class="page3-card-header">
+                                      <img src="images/imagecard2.jfif" alt="Package 2" class="page3-card-image">
+                                      <span class="page3-badge">Sale</span>
+                                      <div class="page3-card-icons">
+                                          <i class="bi bi-heart"></i>
+                                          <i class="bi bi-cart"></i>
+                                          <i class="bi bi-eye-fill"></i>
+                                      </div>
+                                  </div>
+                                  <div class="page3-card-body">
+                                      <div class="page3-card-content">
+                                          <div class="page3-row-image">
+                                              <p class="page3-card-category">Welcome</p>
+                                              <div class="page3-right">
+                                                  <span class="page3-icon">⭐</span>
+                                                  <p class="page3-stars-num">4,9</p>
+                                              </div>
+                                          </div>
+                                          <h5 class="page3-card-title">Lifetime Access</h5>
+                                          <p class="page3-card-description">
+                                              We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                                          </p>
+                                          <div class="page3-row-image">
+                                              <img src="images/descarga.png" alt="descarga" class="page3-image">
+                                              <h6 class="page3-card-sales">15 Sales</h6>
+                                          </div>
+                                          <p class="page3-card-prices">
+                                              <span class="page3-original-price">$16.48</span>
+                                              <span class="page3-sale-price">$6.48</span>
+                                          </p>
+                                          <a href="#" class="page3-card-link">Learn More</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- PAGE 4 -->
+    <section id="page4">
+      <div class="page4-container text-center my-5">
+          <h6 class="page4-practice-advice">Practice Advice</h6>
+          <h2 class="page4-applicable-package">Most Popular Courses</h2>
+          <p class="page4-paragraph">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+  
+          <div id="page4Carousel" class="page4-carousel-slide" data-ride="carousel">
+              <div class="page4-carousel-inner">
+                  <div class="page4-carousel-item active">
+                      <div class="page4-row-carousel">
+                          <div class="col-md-6">
+                              <div class="page4-card page4-card-1" style="top: 12px;">
+                                  <img src="images/fotohombre.jfif" class="page4-card-img-top mx-auto d-block" alt="...">
+                                  <div class="page4-card-body">
+                                      <p class="page4-card-text">Slate helps you see how many more days<br> you need to work to<br> reach your financial<br> goal for the month<br> and year.</p>
+                                      <div class="page4-stars">
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star"></i>
+                                      </div>
+                                      <h5 class="page4-card-title mt-2">Regina Miles</h5>
+                                      <h6 class="page4-card-subtitle mb-2 text-muted">Designer</h6>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="page4-card page4-card-2">
+                                  <img src="images/fotomujer.jfif" class="page4-card-img-top mx-auto d-block" alt="...">
+                                  <div class="page4-card-body">
+                                      <p class="page4-card-text">Slate helps you see<br> how many more days<br> you need to work to<br> reach your financial<br> goal for the month<br> and year.</p>
+                                      <div class="page4-stars">
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star"></i>
+                                      </div>
+                                      <h5 class="page4-card-title mt-2">Regina Miles</h5>
+                                      <p class="page4-card-subtitle mb-2 text-muted">Designer</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- PAGE 5 -->
+    <section id="page5">
+      <div class="page5-container text-center">
+        <h2 class="main-title fadeIn">FAQ</h2>
+        <p class="subheading fadeIn">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn">
+                <div class="card-item slideIn">
+                    <div class="flex-row">
+                        <i class="bi bi-chevron-compact-right"></i>
+                        <div>
+                            <h5>the quick fox jumps over the <br>lazy dog</h5>
+                            <h6>Things on a very small scale<br> behave like nothing</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- PAGE 6 -->
+    <section id="page6">
+        <div class="page6-container text-center my-5">
+            <h6 class="page6-main-title page6-fadeIn">Newsletter</h6>
+            <h2 class="page6-sub-title page6-fadeIn">Get Quality Education</h2>
+            <p class="page6-subheading page6-fadeIn">Problems trying to resolve the conflict between<br>the two major realms of Classical physics: Newtonian mechanics</p>
+        </div>
+        <div class="page6-container">
+            <form id="page6-subscription-form" class="page6-slideIn">
+                <div class="page6-form-group">
+                    <input type="email" id="page6-email" class="page6-form-control" placeholder="Your Email" required>
+                    <button type="submit" class="page6-btn">Subscribe</button>
+                </div>
+                <div id="page6-email-error" class="page6-error-message"></div>
+            </form>
+        </div>
+    </section>
+    
+  
   </main>
   <footer>
     <div class="footer-top">
@@ -113,7 +507,10 @@
         </div>
       </div>
     </div>
-    
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/validation.js"></script>
 </body>
 </html>

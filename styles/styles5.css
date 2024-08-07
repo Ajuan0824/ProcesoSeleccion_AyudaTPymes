@@ -1,8 +1,7 @@
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #26335D;
-    color: #ffffff;
+#page5{
+    position: relative;
+    bottom: 600px;
+    left: 250px;
 }
 
 .main-title {
@@ -62,7 +61,6 @@ h6 {
     letter-spacing: 0.2px;
 }
 
-/* Animations */
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }

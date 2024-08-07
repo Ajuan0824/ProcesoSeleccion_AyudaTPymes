@@ -1,11 +1,6 @@
-body {
-    background-color:#26335D;
-    color: #ffffff;
-    margin: 24px;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.practice-advice {
+
+.page4-practice-advice {
     color: #8D5CF6;
     font-size: 14px;
     font-weight: 700;
@@ -15,7 +10,7 @@ body {
     margin-bottom: 20px;
 }
 
-.applicable-package{
+.page4-applicable-package {
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -24,7 +19,7 @@ body {
     margin-bottom: 10px;
 }
 
-.paragraph {
+.page4-paragraph {
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -33,28 +28,42 @@ body {
    margin-top: 20px;
 }
 
-.carousel .carousel-item {
+.page4-carousel-slide .carousel-item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card {
+.page4-container{
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+}
+
+#page4Carousel{
+    position: relative;
+    bottom: 180px;
+}
+
+.page4-card {
     background-color: white;
     overflow: hidden;
-    width: 500px;
-    height: 440px;
     text-align: center;
     position: relative;
     margin: 10px;
 }
 
-.card-2{
+.page4-card-1 {
+    width: 500px;
+    height: 440px;
+}
+
+.page4-card-2 {
     width: 500px;
     height: 460px;
 }
 
-.card img {
+.page4-card-img-top {
     border-radius: 50%;
     margin-top: 30px;
     width: 150px;
@@ -62,12 +71,12 @@ body {
     object-fit: cover;
 }
 
-.card-body {
+.page4-card-body {
     padding: 20px;
     margin-top: 20px;
 }
 
-.card-text {
+.page4-card-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -75,11 +84,11 @@ body {
     color: #737373;
 }
 
-.stars i {
+.page4-stars i {
     color: #FFDF00;
 }
 
-.card-title {
+.page4-card-title {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -88,15 +97,17 @@ body {
     margin-top: 10px;
 }
 
-.card-subtitle {
+.page4-card-subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #737373;
 }
-.row-carrusel{
-    margin: 25px;
+
+.page4-row-carousel {
+    margin: 213px;
     display: flex;
     flex-wrap: wrap;
+    
 }
