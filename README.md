@@ -1,5 +1,5 @@
 # ProcesoSeleccion_AyudaTPymes
--- Descripción
+-- Descripción:
     Este proyecto se ha realizado para el proceso de selección de la empresa AyudaTPymes. La web está diseñada con HTML y CSS, y utiliza JavaScript para la validación del correo electrónico.
 
 -- Tecnologías Utilizadas
@@ -12,12 +12,12 @@
     Google Fonts: Para la fuente Montserrat.<br>
     Bootstrap Icons: Para los iconos de redes sociales y otros elementos visuales.
 
--- Estructura del Proyecto
+-- Estructura del Proyecto:
 
 ![alt text](images/image.png)
 
 
--- Instrucciones para Desplegar Localmente
+-- Instrucciones para Desplegar Localmente:
 
 1º- Abre tu terminal y clona el repositorio:
 
@@ -29,7 +29,7 @@
 
 3º- Abre el Archivo HTML en tu Navegador
 
-    Puedes abrir el archivo index.html directamente en tu navegador. Si usas VSCode, puedes usar la extensión "Live Server" para lanzar el servidor local.
+Puedes abrir el archivo index.html directamente en tu navegador. Si usas VSCode, puedes usar la extensión "Live Server" para lanzar el servidor local.
 
 Si por casualidad no funciona, dejo por aquí el siguiente enlace con la web subida: 
 
