@@ -2,12 +2,12 @@
 -- Descripción:
     Este proyecto se ha realizado para el proceso de selección de la empresa AyudaTPymes. La web está diseñada con HTML y CSS, y utiliza JavaScript para la validación del correo electrónico.
 
--- Tecnologías Utilizadas
+-- Tecnologías Utilizadas: <br>
     HTML: Estructura básica de la página web.<br>
     CSS: Estilos y animaciones.<br>
     JavaScript: Validación de formulario y funcionalidad interactiva.
 
--- Librerías Utilizadas
+-- Librerías Utilizadas: <br>
     Bootstrap: Para el diseño responsivo y el sistema de grid.<br>
     Google Fonts: Para la fuente Montserrat.<br>
     Bootstrap Icons: Para los iconos de redes sociales y otros elementos visuales.
