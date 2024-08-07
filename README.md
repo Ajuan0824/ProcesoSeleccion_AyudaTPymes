@@ -1,23 +1,23 @@
 # ProcesoSeleccion_AyudaTPymes
--- Descripción
+-- Descripción:
     Este proyecto se ha realizado para el proceso de selección de la empresa AyudaTPymes. La web está diseñada con HTML y CSS, y utiliza JavaScript para la validación del correo electrónico.
 
--- Tecnologías Utilizadas
+-- Tecnologías Utilizadas:
     HTML: Estructura básica de la página web.
     CSS: Estilos y animaciones.
     JavaScript: Validación de formulario y funcionalidad interactiva.
 
--- Librerías Utilizadas
+-- Librerías Utilizadas:
     Bootstrap: Para el diseño responsivo y el sistema de grid.
     Google Fonts: Para la fuente Montserrat.
     Bootstrap Icons: Para los iconos de redes sociales y otros elementos visuales.
 
--- Estructura del Proyecto
+-- Estructura del Proyecto:
 
 ![alt text](image.png)
 
 
--- Instrucciones para Desplegar Localmente
+-- Instrucciones para Desplegar Localmente:
 
 1º- Abre tu terminal y clona el repositorio:
 
